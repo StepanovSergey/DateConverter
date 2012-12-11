@@ -1,6 +1,3 @@
-/**
- * 
- */
 package by.stepanov.sergey.dateconverter;
 
 import java.text.DateFormat;
@@ -12,9 +9,12 @@ import java.text.SimpleDateFormat;
  * (java.sql.Date, java.util.Date, String).
  * 
  * @author Sergey Stepanov
- * @version 1.0.1
+ * @version 1.0.2
  */
-public class DateConverter {
+public final class DateConverter {
+    private DateConverter() {
+    }
+
     /**
      * Convert java.sql.Date to java.util.Date
      * 
